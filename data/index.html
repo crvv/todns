@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DNS Server</title>
+</head>
+<body>
+
+<h1>crvv's DNS Server</h1>
+
+<div>
+    <pre id="config"></pre>
+</div>
+
+<hr>
+<div id="ttl">
+    <div>set TTL</div>
+    <input type="text" class="in ttl">
+    <button class="button">send</button>
+</div>
+<hr>
+
+<div id="upstream">
+    <div>set upstream</div>
+    <input type="text" class="in upstream">
+    <button class="button">send</button>
+</div>
+<hr>
+
+<div id="add">
+    <div>add record</div>
+    <span>name</span><input type="text" class="in name"><br>
+    <span>address</span><input type="text" class="in address">
+    <button class="button">send</button>
+</div>
+<hr>
+
+<div id="del">
+    <div>delete record</div>
+    <span>name</span><input type="text" class="in name"><br>
+    <button class="button">send</button>
+</div>
+<hr>
+
+
+</body>
+<script src="main.js"></script>
+</html>
